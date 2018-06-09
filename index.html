@@ -12,18 +12,31 @@
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">carrie dowling</a>
-
-      <nav class="navbar navbar-light bg-light">
-        <form class="form-inline">
-          <button class="btn btn-sm btn-outline-secondary" type="button" href="portfolio.html">portfolio</button>
-          <button class="btn btn-sm btn-outline-secondary" type="button" href="contact.html">contact me</button>
-        </form>
-
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">carrie dowling</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About Me
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">contact</a>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
-  </header>
+  </nav>
 
   <div id="main-container" class="container">
     <section class="main-section">
@@ -32,7 +45,7 @@
       <h1>About Me</h1>
 
 
-      <img src="assets/cat.jpg" class="auth-image" alt="Your Name">
+      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
       <div class="row">
         <div class="col-sm-4"></div>
         <p>Carrie is from a small town in Indiana known for the college where David Letterman scored his C average. She has
